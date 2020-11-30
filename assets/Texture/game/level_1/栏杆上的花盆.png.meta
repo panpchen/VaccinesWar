@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "505888e3-2022-477f-99d5-bd1275dbe7c6",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 124,
+  "height": 111,
+  "platformSettings": {},
+  "subMetas": {
+    "栏杆上的花盆": {
+      "ver": "1.0.4",
+      "uuid": "f2523a4a-d0e1-49a8-aeb8-05be2e96e241",
+      "rawTextureUuid": "505888e3-2022-477f-99d5-bd1275dbe7c6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 123,
+      "height": 111,
+      "rawWidth": 124,
+      "rawHeight": 111,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

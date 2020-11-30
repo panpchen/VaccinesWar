@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "7897d2d4-96c7-4033-b332-96a71c550737",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 425,
+  "platformSettings": {},
+  "subMetas": {
+    "裂的玻璃": {
+      "ver": "1.0.4",
+      "uuid": "9337d90b-4820-406c-95ba-9b08f0bdaf43",
+      "rawTextureUuid": "7897d2d4-96c7-4033-b332-96a71c550737",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 500,
+      "height": 425,
+      "rawWidth": 500,
+      "rawHeight": 425,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

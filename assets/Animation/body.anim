@@ -1,0 +1,57 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "body",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.32,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 22,
+  "curveData": {
+    "paths": {
+      "feet1": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": -26
+            },
+            {
+              "frame": 0.32,
+              "value": 54.825
+            }
+          ]
+        }
+      },
+      "feet2": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 93
+            },
+            {
+              "frame": 0.32,
+              "value": -31.805000000000007
+            }
+          ]
+        }
+      },
+      "人": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.32,
+              "value": 3
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

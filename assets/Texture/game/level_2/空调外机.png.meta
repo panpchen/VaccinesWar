@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "3168962e-3fb8-4071-9305-20b2c6e5e741",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 429,
+  "height": 359,
+  "platformSettings": {},
+  "subMetas": {
+    "空调外机": {
+      "ver": "1.0.4",
+      "uuid": "eb8a16d0-4b4b-4cb4-998b-037954f7f883",
+      "rawTextureUuid": "3168962e-3fb8-4071-9305-20b2c6e5e741",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 429,
+      "height": 359,
+      "rawWidth": 429,
+      "rawHeight": 359,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

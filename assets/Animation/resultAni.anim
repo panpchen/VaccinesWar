@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "resultAni",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.6,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "backBtn": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -778.002
+            },
+            {
+              "frame": 0.6,
+              "value": -564
+            }
+          ]
+        }
+      },
+      "againBtn": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -778.002
+            },
+            {
+              "frame": 0.6,
+              "value": -564
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}
