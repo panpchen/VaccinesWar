@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "robot",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.625,
+  "sample": 8,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "杯子": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -163.538,
+                -99.786,
+                0
+              ]
+            },
+            {
+              "frame": 0.625,
+              "value": [
+                2.671,
+                -47.89,
+                0
+              ]
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 0.625,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.4,
+                "y": 0.4
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -12,24 +12,29 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class PoolMng extends cc.Component {
-  @property(NodePool)
-  scorePool: NodePool = null;
+    @property(NodePool)
+    itemsPool: NodePool = null;
+    @property(NodePool)
+    scorePool: NodePool = null;
 
-  init() {
-    this.scorePool.init();
-  }
+    init() {
+        this.itemsPool.init();
+        this.scorePool.init();
+    }
 
-  createItems() {
-  }
+    createItems() {
+        return this.itemsPool.requestPool();
+    }
 
-  returnItemsPool(node) {
-  }
+    returnItemsPool(node) {
+        this.itemsPool.returnPool(node);
+    }
 
-  showScore() {
-    return this.scorePool.requestPool();
-  }
+    showScore() {
+        return this.scorePool.requestPool();
+    }
 
-  returnScorePool(node) {
-    this.scorePool.returnPool(node);
-  }
+    returnScorePool(node) {
+        this.scorePool.returnPool(node);
+    }
 }

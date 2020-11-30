@@ -3,36 +3,130 @@
   "_name": "resultAni",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 0.6,
-  "sample": 20,
+  "_duration": 4.125,
+  "sample": 8,
   "speed": 1,
   "wrapMode": 1,
   "curveData": {
     "paths": {
-      "backBtn": {
+      "bed": {
         "props": {
-          "y": [
+          "x": [
             {
               "frame": 0,
-              "value": -778.002
+              "value": -602.62
             },
             {
-              "frame": 0.6,
-              "value": -564
+              "frame": 1.625,
+              "value": 230.499
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 1.625,
+              "value": 255
+            },
+            {
+              "frame": 1.75,
+              "value": 0
             }
           ]
         }
       },
-      "againBtn": {
+      "car": {
         "props": {
-          "y": [
+          "position": [
             {
               "frame": 0,
-              "value": -778.002
+              "value": [
+                400,
+                -593,
+                0
+              ]
             },
             {
-              "frame": 0.6,
-              "value": -564
+              "frame": 1.625,
+              "value": [
+                400,
+                -593,
+                0
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                400,
+                -593,
+                0
+              ]
+            },
+            {
+              "frame": 2.125,
+              "value": [
+                400,
+                -580,
+                0
+              ]
+            },
+            {
+              "frame": 2.25,
+              "value": [
+                400,
+                -593,
+                0
+              ]
+            },
+            {
+              "frame": 2.375,
+              "value": [
+                400,
+                -593,
+                0
+              ]
+            },
+            {
+              "frame": 4.125,
+              "value": [
+                814.471,
+                -593,
+                0
+              ]
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "f831aa8e-2a9e-4a55-903c-a02c34058b7f"
+                }
+              },
+              {
+                "frame": 1.625,
+                "value": {
+                  "__uuid__": "96768ca1-d035-4f57-a8a7-299ba3521cc8"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "car/车轮": {
+        "props": {
+          "angle": [
+            {
+              "frame": 2.375,
+              "value": 0
+            },
+            {
+              "frame": 4.125,
+              "value": -360
             }
           ]
         }

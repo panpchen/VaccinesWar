@@ -7,8 +7,8 @@
     "upsideDown": false
   },
   "packageName": "org.cocos2d.helloworld",
-  "startScene": "1e6ef5e5-17fe-409e-90ee-0f1b4a8c8030",
-  "title": "EscapeWarPic",
+  "startScene": "50fc6569-d05b-429a-915e-53e01505259f",
+  "title": "EscapeWar",
   "webOrientation": "portrait",
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,

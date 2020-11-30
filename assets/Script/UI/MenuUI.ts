@@ -15,38 +15,15 @@ export default class MenuUI extends BaseUI {
     @property(cc.Node)
     btnGroup: cc.Node = null;
 
-    private _isFirstBoot: boolean = false;
-
     start() {
         this.btnGroup.pauseSystemEvents(true);
         const duration = this.ani.getAnimationState("menuUI").duration;
         this.scheduleOnce(() => {
-            this._tweenBtn();
             this.btnGroup.resumeSystemEvents(true);
         }, duration);
     }
 
-    _tweenBtn() {
-        cc.tween(this.btnGroup)
-            .repeatForever(
-                cc.tween()
-                    .to(0.2, { scale: 1.1 })
-                    .to(0.2, { scale: 1 })
-            ).start();
-
-    }
-
     clickGameStart() {
-        this.hide();
-        if (!this._isFirstBoot) {
-            UIManager.instance.showUI(UIType.IntroUI, () => {
-                UIManager.instance.hideAll();
-                cc.director.emit("gameStart");
-            });
-            this._isFirstBoot = true;
-        } else {
-            UIManager.instance.hideAll();
-            cc.director.emit("gameStart");
-        }
+        UIManager.instance.showUI(UIType.IntroUI);
     }
 }

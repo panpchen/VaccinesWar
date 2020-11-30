@@ -1,14 +1,36 @@
 {
   "__type__": "cc.AnimationClip",
-  "_name": "introUI",
+  "_name": "infoUI",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 1.4833333333333334,
+  "_duration": 0.3333333333333333,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
   "curveData": {
     "paths": {
+      "街道卡片": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                1050.077,
+                0
+              ]
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": [
+                0,
+                208.444,
+                0
+              ]
+            }
+          ]
+        }
+      },
       "str": {
         "props": {
           "opacity": [
@@ -17,7 +39,7 @@
               "value": 0
             },
             {
-              "frame": 0.4166666666666667,
+              "frame": 0.3333333333333333,
               "value": 255
             }
           ]
@@ -25,14 +47,14 @@
       },
       "startBtn": {
         "props": {
-          "x": [
+          "y": [
             {
-              "frame": 0.6,
-              "value": 524
+              "frame": 0,
+              "value": -817.475
             },
             {
-              "frame": 1.4833333333333334,
-              "value": 273.587
+              "frame": 0.3333333333333333,
+              "value": -551.865
             }
           ]
         }

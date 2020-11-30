@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "5f6d66c2-b759-4c4c-8cfe-2ed68f2de41c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 743,
+  "height": 1092,
+  "platformSettings": {},
+  "subMetas": {
+    "街道卡片": {
+      "ver": "1.0.4",
+      "uuid": "02c6bbae-78e5-4426-9687-4854e6129876",
+      "rawTextureUuid": "5f6d66c2-b759-4c4c-8cfe-2ed68f2de41c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -42,
+      "trimX": 1,
+      "trimY": 183,
+      "width": 740,
+      "height": 810,
+      "rawWidth": 743,
+      "rawHeight": 1092,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

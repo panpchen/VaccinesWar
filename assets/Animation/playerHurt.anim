@@ -1,0 +1,189 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "playerHurt",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "bg": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "d67ac6d5-622e-4aa5-bc40-789e73673b91"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "右眼": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 360
+            }
+          ]
+        }
+      },
+      "左眼": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 360
+            }
+          ]
+        }
+      },
+      "星星": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -14.571,
+                135.989,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                1.517,
+                166.472,
+                0
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "血": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                35.755,
+                106.425,
+                0
+              ]
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "4451d178-f4e0-4b36-b4ed-1f07bc91cff0"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "星星2": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.25,
+              "value": true
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                15.784,
+                151.167,
+                0
+              ]
+            },
+            {
+              "frame": 0.75,
+              "value": [
+                26.792,
+                183.343,
+                0
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            },
+            {
+              "frame": 0.75,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

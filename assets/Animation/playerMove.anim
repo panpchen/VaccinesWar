@@ -1,0 +1,93 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "player",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.16666666666666666,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 22,
+  "curveData": {
+    "paths": {
+      "右脚": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -0.99
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 4.939
+            }
+          ]
+        }
+      },
+      "左脚": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 2.425
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": -1.919
+            }
+          ]
+        }
+      },
+      "右眼": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "左眼": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "星星": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "星星2": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "血": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

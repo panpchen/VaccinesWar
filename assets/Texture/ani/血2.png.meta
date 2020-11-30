@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "0a4ea11d-b5d7-421a-9a0e-7a4a51802732",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 4,
+  "height": 9,
+  "platformSettings": {},
+  "subMetas": {
+    "血2": {
+      "ver": "1.0.4",
+      "uuid": "6c1e62ca-6655-4e8d-8c69-5dd1e139b12f",
+      "rawTextureUuid": "0a4ea11d-b5d7-421a-9a0e-7a4a51802732",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": -1,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 2,
+      "height": 7,
+      "rawWidth": 4,
+      "rawHeight": 9,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
