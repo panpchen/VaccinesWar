@@ -1,4 +1,3 @@
-import { ITEMS_TYPE_LIST } from "./Config/ItemsConfig";
 // Learn TypeScript:
 //  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
 // Learn Attribute:
