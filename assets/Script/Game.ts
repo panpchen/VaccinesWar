@@ -10,10 +10,8 @@ import { ITEMS_TYPE_LIST } from "./Config/ItemsConfig";
 import PoolMng from "./PoolMng";
 import Item from "./Item";
 import TimeBar from "./TimeBar";
-import LifeBar from "./LifeBar";
 import { levelConfig } from "./Config/LevelConfig";
 import { UIManager, UIType } from "./UIManager";
-import Safehat from "./Safehat";
 import Score from "./Score";
 
 const { ccclass, property } = cc._decorator;
@@ -28,10 +26,6 @@ export default class Game extends cc.Component {
     poolMng: PoolMng = null;
     @property(TimeBar)
     timeBar: TimeBar = null;
-    @property(LifeBar)
-    lifeBar: LifeBar = null;
-    @property(Safehat)
-    safehat: Safehat = null;
     @property(cc.Node)
     touchArea: cc.Node = null;
 
@@ -52,7 +46,6 @@ export default class Game extends cc.Component {
         this.poolMng.init();
         this.timeBar.startCount();
         this.player.node.setPosition(cc.v2(0, this.player.node.y));
-        this.safehat.node.active = false;
         this.touchArea.active = true;
         this.player.init();
         this.clearAllItems();
@@ -136,7 +129,6 @@ export default class Game extends cc.Component {
     _endGame() {
         this.unscheduleAllCallbacks();
         this.timeBar.clear();
-        this.lifeBar.clear();
         this._spawnTime = 0;
         Game.itemMoveSpeed = 0;
         UIManager.instance.showUI(UIType.ResultUI);

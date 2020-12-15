@@ -43,15 +43,6 @@ export default class TimeBar extends cc.Component {
                 cc.director.emit("upSpeed");
             }
 
-            if (this.curTime % 25 == 0 && !Game.instance.player.haveSafeHat && this._curTime != TOTALTIME) {
-                if (Game.isFirstHaveSafeHat) {
-                    UIManager.instance.showUI(UIType.SafeHatUI);
-                    Game.instance.setPauseGame(true);
-                    Game.isFirstHaveSafeHat = false;
-                } else {
-                    Game.instance.showSafeHat();
-                }
-            }
             this._curTime--;
             this.timeLabel.string = Game.instance.countDownFormat(this._curTime);
             let v = this._curTime / TOTALTIME;

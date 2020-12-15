@@ -12,9 +12,6 @@ export const enum UIType {
     MenuUI = "MenuUI",
     IntroUI = "IntroUI",
     ResultUI = "ResultUI",
-    SafeHatUI = "SafeHatUI",
-    SafeHatGetUI = "SafeHatGetUI"
-
 }
 
 @ccclass("AllUIMap")
